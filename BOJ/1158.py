@@ -7,6 +7,4 @@ while(lst):
     idx = (idx + m - 1) % (len(lst))
     result.append(str(lst.pop(idx)))
 
-print("<", end="")
-print(", ".join(result), end="")
-print(">")
+print("<%s>" % ", ".join(result))
